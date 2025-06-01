@@ -6,7 +6,8 @@
 
 ## News
 
-🔥 [2025/05/31] (update #1): We release all the evaluation scripts and part of recipes for different models.
+🔥 [2025/05/31] (update #2): We release all the evaluation scripts and part of recipes for different models.
+
 🔥 [2025/05/20] (update #1): We release the traing datasets and all the corresponding Liter Models.
 
 ## Outline
