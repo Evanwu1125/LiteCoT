@@ -6,6 +6,7 @@
 
 ## News
 
+🔥 [2025/05/31] (update #1): We release all the evaluation scripts and part of recipes for different models.
 🔥 [2025/05/20] (update #1): We release the traing datasets and all the corresponding Liter Models.
 
 ## Outline
@@ -15,6 +16,7 @@
 * [Datasets](#Datasets)
 * [Installation](#Installation)
 * [Training](#Training)
+* [Evaluation](#Evaluation)
 
 
 ## Overview
@@ -29,7 +31,7 @@ CoT outputs, adapting reasoning length dynamically based on problem difficulty
 
 ## To do list
 
-- [ ] Open source all the evaluation scripts
+- [x] Open source all the evaluation scripts
 - [x] Open source Liter series model weights
 - [x] Open source training scripts
 - [x] Open source training data
@@ -99,8 +101,41 @@ In case you want you directly use our trained models, we provide all the weights
 The results are shown below:
 ![Alt text](assets/scatter_short_vs_ds.png)
 
-            
-            
+# Evaluation
+
+Our evaluation scripts are from [Open-R1](https://github.com/huggingface/open-r1) and [Qwen-Math](https://github.com/QwenLM/Qwen2.5-Math) projects.
+
+Given the stochastic nature of the model outputs, it is normal for the reproduced evaluation results to differ slightly from those reported in our paper.
+
+## For evaluating GPQA, AIME, MATH500.
+
+```bash
+# Remember to install lighteval before evaluating 
+cd LiteCoT/eval/open-r1
+pip install lighteval
+sh eval.sh
+```
+
+
+## For evaluating other 11 Math benchmarks.
+
+```bash
+# Remember to install corresponding requirements
+cd LiteCoT/eval/Qwen2.5-Math
+sh eval.sh
+```
+
+# Citation
+
+```
+@article{wu2025concise,
+  title={Concise Reasoning, Big Gains: Pruning Long Reasoning Trace with Difficulty-Aware Prompting},
+  author={Wu, Yifan and Shi, Jingze and Wu, Bingheng and Zhang, Jiayi and Lin, Xiaotian and Tang, Nan and Luo, Yuyu},
+  journal={arXiv preprint arXiv:2505.19716},
+  year={2025}
+}
+```
+
             
             
             
