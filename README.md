@@ -94,10 +94,10 @@ In case you want you directly use our trained models, we provide all the weights
 
 | Our Model Name | Original Model Weights |
 |----------------|------------------------|
-| [LiteCoT-1.5B](Evanwu50020/qwen2.5-1.5b-math-shortcot-100k) | Qwen2.5-Math-1.5B-Base |
-| [LiteCoT-7B](Evanwu50020/qwen2.5-7b-math-shortcot-100k) | Qwen2.5-Math-7B-Base |
-| [LiteCoT-14B](SmallDoge/Qwen2.5-14B-shortcot-100k) | Qwen2.5-14B-Base |
-| [LiteCoT-32B](SmallDoge/Qwen2.5-32B-shortcot-100k) | Qwen2.5-32B-Base | 
+| [LiteCoT-1.5B](https://huggingface.co/Evanwu50020/qwen2.5-1.5b-math-shortcot-100k) | Qwen2.5-Math-1.5B-Base |
+| [LiteCoT-7B](https://huggingface.co/Evanwu50020/qwen2.5-7b-math-shortcot-100k) | Qwen2.5-Math-7B-Base |
+| [LiteCoT-14B](https://huggingface.co/SmallDoge/Qwen2.5-14B-shortcot-100k) | Qwen2.5-14B-Base |
+| [LiteCoT-32B](https://huggingface.co/SmallDoge/Qwen2.5-32B-shortcot-100k) | Qwen2.5-32B-Base | 
             
 The results are shown below:
 ![Alt text](assets/scatter_short_vs_ds.png)
